@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>DIC cafe</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="#top" class="sub_header">
+      <nav class="header_nav">
+        <a href="./index.html" class="logo"> <img src="./images/sample_logo_k.png" alt="logo"> </a>
+        <ul class="global_nav">
+            <a href="index.html" class="global_nav_item"><li>Home</li></a>
+            <a href="#menu" class="global_nav_item"><li>Menu</li></a>
+            <a href="contact.html" class="global_nav_item"><li>Contact</li></a>
+          </ul>
+      </nav>
+    </header>
+    <section class="section_inner">
+      <div class="section_title">
+        <h1>CONTACTO</h1>
+        <p> Contáctanos </p>
+      </div>
+      <form action="#" method="post">
+        <table class="contact">
+          <tr class="contact_line">
+            <td class="contact_sign"><label for="name"> Su nombre </label></td>
+            <td class="contact_input"><input type="text"  name="name" id="name"></td>
+          </tr>
+          <tr class="contact_line">
+            <td class="contact_sign"><label for="phonenumber"> Datos de contacto </label></td>
+            <td class="contact_input"><input type="tel" name="phonenumber" id="phonenumber"></td>
+          </tr>
+          <tr class="contact_line">
+            <td class="contact_sign"><label for="region"> Región de residencia </label></td>
+            <td>
+              <select id="region">
+                <option value="0"> Seleccione </option>
+                <option value="1"> Hokkaido </option>
+                <option value="2"> Tohoku </option>
+                <option value="3"> Kantou </option>
+                <option value="4"> Región Central </option>
+                <option value="5"> Kinki </option>
+                <option value="6"> Chugoku y Shikoku </option>
+                <option value="7"> Kyushu </option>
+              </select>
+            </td>
+          </tr>
+          <tr class="contact_content">
+            <td class="contact_sign"><label for="content"> Contenido </label></td>
+            <td class="contact_input"><textarea name="content" id="content"> </textarea></td>
+          </tr>
+        </table>
+        <div class="contact_btn_area">
+          <button type="reset" class="contacct_btn reset_btn"> Reset </button>
+          <button type="submit" class="contact_btn submit_btn"> Enviar </button>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <nav>
+        <ul class="footer_ul">
+          <a class="footer_li" href="index.html"><li>• Home</li></a>
+          <a class="footer_li" href="#menu"><li>• Menu</li></a>
+          <a class="footer_li" href="contact.html"><li>• Contact</li></a>
+          <a class="footer_li" href="index.html"> <li>•<img src="./images/sample_logo_w.png" alt="" width="80px"></li> </a>
+        </ul>
+        <div class="derechos">
+          <span>DIVIC Corp. All RIGHTS RESERVED.</span>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
