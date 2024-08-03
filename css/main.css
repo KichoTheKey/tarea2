@@ -135,6 +135,7 @@
 .cafe {
     background-color: white;
     padding: 20px;
+    margin: 20px;
 }
 .cafe_li {
     display: flex;
